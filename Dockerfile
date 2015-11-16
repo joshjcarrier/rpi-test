@@ -1,5 +1,5 @@
 FROM hypriot/rpi-ruby
-RUN apt-get update -qq && apt-get install -y build-essential
+RUN apt-get update -qq && apt-get install -y build-essential libsqlite3-dev
 
 RUN mkdir /opt/test
 
