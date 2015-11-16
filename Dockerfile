@@ -1,4 +1,5 @@
 FROM hypriot/rpi-ruby
+RUN apt-get update -qq && apt-get install -y build-essential
 
 RUN mkdir /opt/test
 
